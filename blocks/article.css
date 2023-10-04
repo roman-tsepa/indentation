@@ -1,0 +1,132 @@
+.article {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 60px 0 25px;
+}
+
+.article__container {
+  padding-bottom: 50px;
+}
+
+.article__section {
+  padding: 25px 0;
+  font-size: 0; /* Избавление от отступов между инлайн-элементами */
+  text-align: center; /* Центрирование изображений */
+}
+
+.article__title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  text-align: start;
+}
+
+.article__title_size_large {
+  font-size: 60px;
+}
+
+.article__title_size_small {
+  font-size: 36px;
+}
+
+.article__wrapper-text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article__wrapper-text:nth-child(even) {
+  max-width: 490px;
+}
+
+.article__wrapper-text:nth-child(odd) {
+  max-width: 480px;
+  margin-right: 40px;
+}
+
+.article__text {
+  font-size: 20px;
+  text-align: start;
+}
+
+.article__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.article__text_indent-bottom_large {
+  margin-bottom: 50px;
+}
+
+.article__text_view_caption {
+  padding: 15px 30px;
+  color: #5e5e5e;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.article__text-bold {
+  font-size: inherit;
+  font-weight: 700;
+}
+
+.article__text-italic {
+  font-size: inherit;
+  font-style: italic;
+}
+
+.article__wrapper-list {
+  padding: 25px 30px 25px 45px;
+  text-align: start;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.article__wrapper-list:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.article__subtitle {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.article__list {
+  font-size: 20px;
+}
+
+.article__list_color_azure {
+  color: #02535f;
+}
+
+.article__list_indent-bottom_small {
+  margin-bottom: 30px;
+}
+
+.article__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.article__link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.article__box {
+  margin-bottom: 30px;
+}
+
+.article__image {
+  height: auto;
+}
+
+.article__image_width_responsive {
+  width: calc(100% - 520px);
+}
+
+.article__image_indent-right_small {
+  margin-right: 30px;
+}
+
+.article__image_indent-bottom_small {
+  margin-bottom: 30px;
+}
